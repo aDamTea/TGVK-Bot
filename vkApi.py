@@ -6,8 +6,8 @@ import logging
 
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO, datefmt='%d-%b-%y %H:%M:%S')
 
-vkToken = 'vk1.a.Tq9IQcY2HFfKIHP6sOCPkLH3O3Sa9J60wRAjRWot6BJW_2wDEZZZIwjL5KKADvh2dN4vQ0OQiTIq_DDjaOlVFTdNzjFXxT5GA6i8PGs5k5CvdkrqsOpsWZ_H9Wrk30t42WO6rAXHIkABwlG1j2ekt_qQKt-uZ85zBgq-qVSyKOxn2F00ZZmafhRVQsynWvMKd8mliBSD-Qqov6oHw7_hqg'
-vkId = 205576130
+vkToken = 'YOUR_TOKEN'
+vkId = 'YOUR_ID'
 vkSession = vk_api.VkApi(token=vkToken)
 apiSession = vkSession.get_api()
 longPoll = VkBotLongPoll(vkSession, vkId)
