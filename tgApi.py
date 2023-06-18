@@ -2,7 +2,7 @@
 from telegram.ext import Updater, CallbackContext
 import logging
 
-tgToken = '5732152774:AAG-NV8tkmWPr6aUpMD0RkEAlJR32s7vVH4'
+tgToken = 'YOUR_TOKEN'
 tgSession = Updater(token=tgToken, use_context=True)
 dispatcher = tgSession.dispatcher
 tgSession.start_polling()
