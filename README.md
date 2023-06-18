@@ -4,6 +4,10 @@ Used libraries:
 * [python-telegram-bot==13.15](https://github.com/python-telegram-bot/python-telegram-bot) <sub>To be upgraded soon</sub>
 * [vk-api](https://github.com/python273/vk_api) <sub>Maybe I'll use vkbottle in other version, but I'm not so into async now</sub>
 
+## Basic setup
+* Change ```tgToken``` in ```tgApi``` to your bot token from BotFather
+* Change ```vkToken``` and ```vkId``` to your bot token and bot group id
+
 ## How to add commands
 You can add text commands and keyboard. 
 <br><br>
