@@ -26,7 +26,7 @@ if message.split()[0] in ['!say']: # For example
                 context=info['context'])
 ```
 Every time use ```context=info['context']``` to be able to work with Telegram API.<br>
-All command recommended to write in ```commandTasks()``` function for multithreading, but if you need to run your module in the main thread use ```mainThread()``` function.<br>
+All command recommended to write in ```commandTasks()``` function in ```commands``` for multithreading, but if you need to run your module in the main thread use ```mainThread()``` function.<br>
 Keyboards should be written in ```vkApi``` and ```tgApi``` modules (if you know how to do it of course), examples included.
 
 ## Collected message information
