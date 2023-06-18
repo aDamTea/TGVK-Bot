@@ -6,7 +6,7 @@ Used libraries:
 
 ## Basic setup
 * Change ```tgToken``` in ```tgApi``` to your bot token from BotFather
-* Change ```vkToken``` and ```vkId``` to your bot token and bot group id
+* Change ```vkToken``` and ```vkId``` in ```vkApi``` to your bot token and bot group id
 
 ## How to add commands
 You can add text commands and keyboard. 
